@@ -25,6 +25,8 @@ android {
             outputFileName = "ZYBtest_${buildType.name}_v${versionName}_${generateTime()}.apk"
         }
     }
+    
+
 
     signingConfigs {
         config {
